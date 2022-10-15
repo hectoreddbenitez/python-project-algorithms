@@ -12,7 +12,9 @@ def is_palindrome_iterative(word):
     # return True
 
     # Pythonic way!!
-    if not word: return False
+    if not word:
+        return False
     else:
-        if word == word[::-1]: return True             
+        if word == word[::-1]:
+            return True
     return False
