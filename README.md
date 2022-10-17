@@ -255,7 +255,7 @@ second_string = "empada"
 
 <details>
  <summary>
-   <b>🤖 Clique aqui para ver o que será verificado pelo avaliador.</b>
+   <b>🤖 Clique aqui para ver o que foi verificado pelo avaliador.</b>
  </summary>
 
 - 3.1 - Retorne `True` se as palavras passadas por parâmetro forem anagramas;
@@ -323,7 +323,7 @@ nums = [3, 1, 2, 4, 6, 5, 7, 7, 7, 8]
 
 <details>
  <summary>
-   <b>🤖 Clique aqui para ver o que será verificado pelo avaliador.</b>
+   <b>🤖 Clique aqui para ver o que foi verificado pelo avaliador.</b>
  </summary>
 
 - 4.1 - Retorne o número repetivo se a função receber como parâmetro uma lista com números repetidos;
@@ -355,7 +355,7 @@ Resolva o mesmo problema apresentado no `requisito 2 - Palíndromos`, porém des
 
 <details>
  <summary>
-   <b>🤖 Clique aqui para ver o que será verificado pelo avaliador.</b>
+   <b>🤖 Clique aqui para ver o que foi verificado pelo avaliador.</b>
  </summary>
 
 - 5.1 - Retorne `True` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa;
