@@ -52,15 +52,13 @@ Resolver problemas/Otimizar algoritmos sob pressão.
 <details>
   <summary><strong>🎛 Linter</strong></summary><br />
 
-  Para garantir a qualidade do código, vamos utilizar neste projeto o linter `Flake8`.
-  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
+  Para garantir a qualidade do código, foi utilizado neste projeto o linter `Flake8`.
+  Assim o código ficou alinhado com as boas práticas de desenvolvimento, sendo mais legível
   e de fácil manutenção! Para rodá-lo localmente no projeto, execute o comando abaixo:
 
   ```bash
   python3 -m flake8
   ```
-
-  ⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 </details>
 
 <details>
@@ -102,50 +100,6 @@ Resolver problemas/Otimizar algoritmos sob pressão.
   :warning: Lembre-se de ativar novamente quando voltar a trabalhar no projeto.
 
   O arquivo `dev-requirements.txt` contém todas as dependências que serão utilizadas no projeto, ele está agindo como se fosse um `package.json` de um projeto `Node.js`.
-</details>
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
-  Para executar os testes certifique-se de que você está com o ambiente virtual ativado.
-
-  <strong>Executar os testes</strong>
-
-  ```bash
-  $ python3 -m pytest
-  ```
-
-  O arquivo `pyproject.toml` já configura corretamente o pytest. Entretanto, caso você tenha problemas com isso e queira explicitamente uma saída completa, o comando é:
-
-  ```bash
-  python3 -m pytest -s -vv
-  ```
-
-  Caso precise executar apenas um arquivo de testes basta executar o comando:
-
-  ```bash
-  python3 -m pytest tests/nome_do_arquivo.py
-  ```
-
-  Caso precise executar apenas uma função de testes basta executar o comando:
-
-  ```bash
-  python3 -m pytest -k nome_da_func_de_tests
-  ```
-
-  Se desejar rodar os testes de um arquivo específico, execute com `-x nome_do_arquivo`
-
-  ```bash
-  python -m pytest -x tests/test_jobs.py
-  ```
-
-  Para executar um teste específico de um arquivo, basta executar o comando:
-
-  ```bash
-  python -m pytest -x tests/nome_do_arquivo.py::test_nome_do_teste
-  ```
-
-  Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
 </details>
 
 
